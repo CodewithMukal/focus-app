@@ -3,6 +3,22 @@
 
 @custom-variant dark (&:is(.dark *));
 
+*{
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: white black;
+}
+
+.animate-expand {
+  max-height: 1000px;
+  transition: max-height 0.4s ease-in-out;
+}
+
+.animate-collapse {
+  max-height: 240px;
+  transition: max-height 0.4s ease-in-out;
+}
+
 
 @theme inline {
   --color-background: var(--background);

@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         <h1 className={`${pixelify.className} text-4xl`}>FOCUS.</h1>
         <p className="text-sm max-w-[90vw] text-center">Timers, ambient music, non-distractive backgrounds - so YOU can lock tf in...</p>
-        <Link href={"/focus"}>
+        <Link href={"/config"}>
           <Button className={`my-5 duration-600 hover:ring-1 ring-white/20 ${pixelify.className} cursor-pointer`} >{randomText}</Button>
         </Link>
       </div>  
